@@ -158,8 +158,8 @@ footer {
 }
 
 .participants ul {
-  list-style: disc;
-  padding-left: 20px;
+  list-style: none;
+  padding-left: 0;
   margin: 0;
   max-height: 120px;
   overflow: auto;
@@ -169,6 +169,23 @@ footer {
   padding: 4px 0;
   font-size: 14px;
   color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.unregister-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+.unregister-btn:hover {
+  background: rgba(198,40,40,0.08);
 }
 
 .participants .no-participants {
